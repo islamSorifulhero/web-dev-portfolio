@@ -1,45 +1,49 @@
 .open-sans-normal {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
-body{
+
+header {
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
     background-color: #FFF8F3;
 }
-header{
-    background-image: url(images/developer.png);
-    background-repeat: no-repeat;
-    background-size: 70px;
-    background-position: 70px top;
-    background-position-y: 45px;
-}
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     margin: 0px 226px;
 }
-nav h3{
+
+nav h3 {
     font-size: 45px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 }
-nav ul li{
+
+nav ul li {
     text-decoration: none;
     list-style: none;
     margin-right: 51px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
 }
-.dark2{
+
+.dark2 {
     color: #474747;
     font-size: 20px;
 }
-.btn{
+
+.btn {
     background-color: #FD6E0A;
     padding: 18px 35px 19px 36px;
     color: white;
@@ -48,23 +52,50 @@ nav ul li a{
     font-size: 20px;
     border-radius: 5px;
 }
-.banner{
+
+.banner {
     display: flex;
 }
-.banner .banner-container{
+
+.banner .banner-container {
     margin: 35px 163px 184px 230px;
     width: 585px;
     height: 356px;
 }
-.banner img{
+
+/* .banner img {
     background-image: url(images/header_bg.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position-y: bottom;
-    margin-right: 190px;
-    width: 484px;
-    height: 400px;
-}
-.banner .banner-container p{
+    position: bottom right;
+} */
+
+.banner .banner-container p {
     color: #757575;
+}
+
+.main {
+    width: 680px;
+    height: 290px;
+    margin: 90px auto;
+    display: block;
+    background-color: #FFF8F3;
+    padding: 130px 156px;
+    border-radius: 10px;
+
+}
+
+* .main-section {
+    text-align: center;
+    
+}
+
+.main-info {
+}
+.dark-3{
+    color: #757575;
+}
+.informetion {
+    display: flex;
+    gap: 50px;
+    margin: 30px 46px 0;
 }
