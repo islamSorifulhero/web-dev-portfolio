@@ -157,4 +157,12 @@ nav ul li a {
 .edu-skill{
     font-size: 10px;
     color: #757575;
+    margin-top: -20px;
+}
+.edu-margin{
+    margin-top: 10px;
+}
+.edu-btn{
+    margin: 50px auto;
+    display: block;
 }
