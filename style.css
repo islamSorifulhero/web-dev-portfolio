@@ -71,6 +71,31 @@ nav ul li a {
 
 .banner .banner-container p {
     color: #757575;
+    font-size: 8px;
+}
+.banner-container button{
+    display: inline;
+}
+.btn-cv{
+    width: 120px;
+    height: 44px;
+    font-size: 10px;
+}
+.font-awe{
+    width: 20px;
+    height: 54px;
+    margin-left: -32px;
+}
+.btn-contact{
+    width: 120px;
+    height: 44px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: #FFF8F3;
 }
 
 .main-section {
@@ -165,6 +190,7 @@ nav ul li a {
 .edu-btn{
     margin: 50px auto;
     display: block;
+    font-size: 12px;
 }
 footer{
     max-width: 1600px;
@@ -214,4 +240,7 @@ footer{
 }
 .input-btn{
     margin-top: 24px;
+}
+.image-icons {
+    margin-left:-8px;
 }
